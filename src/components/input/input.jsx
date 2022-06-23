@@ -7,6 +7,8 @@ import { AppColor } from 'config/config';
 import { useController } from 'hooks/hooks';
 import { styles } from './styles';
 
+// comentar
+
 const Input = ({ name, control, errors, iconName, placeholder, isSecure, isDisabled }) => {
   const { field } = useController({ name, control });
 
